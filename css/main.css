@@ -70,3 +70,135 @@ body{
 .site-main{
   flex-grow: 1;
 }
+
+.site-header {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.site-header__box {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-right: 510px;
+  margin-left: 58px;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__item:nth-child(2) {
+  margin: 0 32px;
+}
+
+.site-header__link {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.site-header__link:hover {
+  color: #FCB72B;
+}
+
+.scotion-link {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 14px 39px;
+  background-color: #FCB72B;
+  border: 3px solid transparent;
+  transition: .3S;
+}
+
+.scotion-link:hover {
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+  background-color: transparent;
+}
+
+.hero {
+  position: relative;
+  background-image: url("../images/home-hero-bgimg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 153px;
+  padding-bottom: 152px;
+  overflow-x: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 234px;
+  height: 62px;
+  top: calc(50% + 110px);
+  right: calc(50% - 760px);
+  background-image: url("../images/hero-after-img.svg");
+}
+
+
+.hero__title {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero__info-box {
+  width: 400px;
+  padding-left: 77px;
+}
+
+.hero__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero__text::before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 203px;
+  height: 15px;
+  background-image: url("../images/home-hero-before.svg");
+}
+
+.hero__text::after {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 355px;
+  right: 350px;
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/home-icon-right-hero.svg");
+}

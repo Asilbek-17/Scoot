@@ -15,24 +15,24 @@
 }
 
 /* GENERAL */
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 *,
 *::before,
 *::after{
   box-sizing: inherit;
 }
-
-
 html{
   height: 100%;
   box-sizing: border-box;
 }
-
 img{
   display: block;
   height: auto;
 }
-
 body{
   display: flex;
   flex-direction: column;
@@ -44,7 +44,6 @@ body{
 }
 
 /* VISUALLY-HIDDEN */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -59,7 +58,6 @@ body{
 }
 
 /* CONTAINER */
-
 .container{
   width: 1150px;
   margin-right: auto;
@@ -69,7 +67,6 @@ body{
 }
 
 /* STICKY-FOOTER */
-
 .site-main{
   flex-grow: 1;
 }

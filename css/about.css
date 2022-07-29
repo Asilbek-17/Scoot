@@ -292,6 +292,9 @@ only screen and (                min-resolution: 2dppx) {
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
 }
+.faq__details:hover{
+    background: #FFF4DF;
+}
 .faq__summary {
     position: relative;
     list-style: none;
@@ -302,6 +305,7 @@ only screen and (                min-resolution: 2dppx) {
     letter-spacing: -1.07143px;
     color: #495567;
 }
+
 .faq__summary::after{
     position: absolute;
     top: 0;
